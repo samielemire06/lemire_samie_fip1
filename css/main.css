@@ -1,0 +1,443 @@
+#mobile-outline {
+    outline: 20px solid #333;
+    max-width: 412px;
+    margin: 20px auto 20px auto;
+    border-radius: 10px;
+ } 
+ 
+ body {
+    color: #626262;
+    font-family: 'Sanchez', 'Times New Roman', serif;
+ }
+ 
+ h1 {
+    font-size: 30px;
+ }
+ 
+ h2 {
+    font-size: 24px;
+ }
+ 
+ h3 {
+    font-size: 18px;
+ }
+ 
+ p {
+    font-size: 18px;
+ }
+ 
+ ul li {
+    font-size: 18px;
+ }
+ 
+ a {
+    text-decoration: none;
+    /* add */
+ }
+ 
+ input, textarea {
+    display: block;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ .cr-red {
+    color: #9a2018;
+ }
+ 
+ 
+ 
+ #main-nav label img {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    transition: all .5s ease;
+    cursor: pointer;
+ }
+ 
+ #main-nav input, #burger-con {
+    display: none;
+ }
+ 
+ #main-nav input:checked ~ #burger-con {
+    display: block;
+ }
+ 
+ #main-nav input:checked ~ label img {
+    transform: rotate(90deg);
+ }
+ 
+ 
+ #main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ #main-nav ul li a {
+    display: block;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    color: #626262;
+ }
+ 
+ #main-nav ul li {
+    border-bottom: 1px solid #efefef;
+ }
+ 
+ #main-nav ul li:first-child {
+    border-top: 1px solid rgb(255, 255, 255);
+ }
+ 
+ #main-nav ul li:last-child {
+    margin-bottom: 40px;
+ }
+    /* add */
+ 
+ 
+ #logo {
+    margin-bottom: 20px;
+    max-width: 382px;
+ }
+ 
+ 
+ /* 3. ---Main Hero Image--- */
+ 
+ #hero {
+    background: url(../images/fall.webp) no-repeat;
+    height: 200px;
+ }
+ 
+ .book-now {
+    background-color: #9a2018;
+    color: #fff;
+    font-size: 16px;
+    transition: background-color 500ms linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+       /* add */
+    cursor: pointer;
+ }
+ 
+ .book-now:hover {
+    background-color: rgb(196, 28, 28);
+ }
+ 
+ #book-now-hero {
+    height: 67px;
+ }
+ 
+ #hero-heading-box {
+    align-self: end;
+ }
+ 
+ #hero-heading-box2 {
+    align-self: end;
+ }
+ 
+ .hero-img-h2, .hero-img-h3 {
+    background: #fff;
+    padding: 10px 15px;
+    font-size: 20px;
+ }
+ 
+ .hero-img-h2 span,  .hero-img-h3 span {
+    color: #9a2018;
+    font-size: 12px;
+ }
+ #hero1 {
+    background: url(../images/algonquin.webp) no-repeat;
+    height: 200px;
+ }
+ 
+ .packages {
+    background-color: #9a2018;
+    color: #fff;
+    font-size: 16px;
+    transition: background-color 500ms linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+       /* add */
+    cursor: pointer;
+ }
+ 
+ .packages:hover {
+    background-color: rgb(196, 28, 28);
+ }
+ 
+ #packages-hero {
+    height: 67px;
+ }
+ 
+ #packages-heading-box2 {
+    align-self: end;
+ }
+ 
+ #packages-heading-box3 {
+    align-self: end;
+ }
+ 
+ .packages-img-h4, .packages-img-h5 {
+    background: #fff;
+    padding: 10px 15px;
+    font-size: 14px;
+ }
+ 
+ .packages-img-h4 span,  .packages-img-h5 span {
+    color: #9a2018;
+    font-size: 12px;
+ }
+ 
+ .line-separator {
+    margin-top: 20px;
+    border-top: solid 3px #CF6666;
+    padding-top: 20px;
+ }
+ 
+ #packages-summary p {
+    font-size: 12px;
+    line-height: 22px;
+    margin-bottom: 20px;
+ }
+ 
+ .spa {
+    background-color: #9a2018;
+    color: #fff;
+    font-size: 16px;
+    transition: background-color 500ms linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+       /* add */
+    cursor: pointer;
+ }
+ 
+ .spa:hover {
+    background-color: rgb(196, 28, 28);
+ }
+ 
+ #spa-hero {
+    height: 67px;
+ }
+ 
+ #spa-heading-box2 {
+    align-self: end;
+ }
+ 
+ #spa-heading-box3 {
+    align-self: end;
+ }
+ 
+ .spa-img-h4, .spa-img-h5 {
+    background: #fff;
+    padding: 10px 15px;
+    font-size: 14px;
+ }
+ 
+ .spa-img-h4 span,  .spa-img-h5 span {
+    color: #9a2018;
+    font-size: 12px;
+ }
+ 
+ #spa-summary p {
+    font-size: 12px;
+    line-height: 22px;
+    margin-bottom: 20px;
+ }
+ 
+ #spa-text {
+    padding-bottom: 60px;
+ }
+ 
+ #spa-text p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 22px;
+ }
+ 
+ #spa-text-column2 {
+    font-style: italic;
+ }
+ 
+ /* 4. ---Main Hero Image Contact--- */
+ 
+ .fas {
+    font-size: 42px;
+    color: #9a2018;
+    margin: 0 auto;
+    float: left;
+ }
+ 
+ .fa-mobile-alt {
+    margin-right: 10px;
+    margin-left: 3px;
+    margin-bottom: 20px;
+ }
+ 
+ .fa-map-marker-alt {
+    margin-right: 10px;
+ }
+ 
+ #contact {
+    font-size: 11px;
+    background-color: #efefef;
+    padding-top: 30px;
+    padding-bottom: 30px;
+ }
+ 
+ /* 5. ---Why Choose Us--- */
+ 
+ 
+  #why-choose-us-nav {
+    padding-top: 20px;
+ }
+ 
+ #why-choose-us-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+ }
+ #why-choose-us-nav ul li {
+    margin-bottom: 15px;
+ }
+ 
+ #why-choose-us-nav ul li a {
+   color: inherit;
+   padding: 5px;
+ }
+ 
+ 
+ /* add */
+ 
+ #why-choose-us-nav ul li a.selected {
+    border-left: #9a2018 solid 5px;
+ }
+ 
+ #why-choose-us-hero-con {
+   background: url(../images/why-choose-us-hero.jpg) no-repeat;
+   height: 195px;
+ }
+ 
+ #why-choose-us-heading-box {
+    align-self: end;
+ }
+ 
+ .why-choose-us-image {
+    float: left;
+    margin-right: 20px;
+    margin-top: 30px;
+ }
+ 
+ .why-choose-us-image-con h2 {
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+ }
+ 
+ .why-choose-us-image-con p {
+    font-size: 12px;
+    margin-bottom: 20px;
+    line-height: 20px;
+ }
+ 
+ .why-choose-us-image-con a {
+    color: #707070;
+    font-size: 12px;
+ }
+ 
+  #why-choose-us-bottom-nav {
+    background-color: #CF6666;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+ }
+ 
+ #why-choose-us-bottom-nav ol {
+    list-style-type: none;
+    margin: 0 0 0 20px;
+    padding: 0;
+ }
+ 
+ #why-choose-us-bottom-nav ol li {
+    display: inline;
+ }
+ 
+ #why-choose-us-bottom-nav ol li a {
+    padding: 5px;
+    color: #fff;
+ }
+ 
+ 
+ /* 6. ---About & FAQ--- */
+ 
+ #about-hero-con {
+    background: url(../images/about-us-hero.jpg) no-repeat;
+    height: 195px;
+ }
+ 
+ #about-hero-heading-box {
+    align-self: end;
+ }
+ 
+ #about-us-text {
+    padding-bottom: 60px;
+ }
+ 
+ #about-us-text p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 22px;
+ }
+ 
+ #about-us-text-column2 {
+    font-style: italic;
+ }
+ 
+ #loyalty-text {
+    padding-bottom: 60px;
+ }
+ 
+ #loyalty-text p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 22px;
+ }
+ 
+ #loyalty-text-column2 {
+    font-style: italic;
+ }
+ 
+ #footer-hero {
+    background-image: url(../images/footer.jpg);
+     background-repeat: no-repeat;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 40px;
+    padding-bottom: 80px;
+ }
+ 
+ #footer-hero h3 {
+    margin-top: 30px;
+    font-size: 28px;
+    margin-bottom: 16px;
+ }
+ 
+ #footer-privacy .line-seperator {
+    margin-top: 0px;
+ }
+ 
+ #footer-contact-info h3 {
+    font-size: 23px;
+ }
+ 
+ #footer-contact-info p {
+    margin-bottom: 20px;
+    line-height: 18px;
+    font-size: 11px;
+ }
